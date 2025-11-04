@@ -1,73 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Declares HTML5 document type -->
+<html lang="en"> <!-- Root element with language attribute for accessibility -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Eva Social</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8"> <!-- Sets character encoding to UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes page responsive on mobile devices -->
+  <link rel="stylesheet" href="styles.css">
+  <title>EVA Social</title> <!-- Sets the page title shown in browser tab -->
 </head>
-<body style="display: flex;">
-
-    <!-- aside, nav, header -->
-    <aside class= "nav-text">
-        <!--img, heading tags-->
-        <a href="Index.html">
-        <img src="evalogo.png" alt="EVA IT CS Logo" height="100"></a>
-        <ul>
-            <li><a href="index.com">Home</a></li>
-            <li><a href="terms-and-agreement.html">Terms and Agreement</a></li>
-            <li><a href="contact.html">Contact us</a></li>
-        </ul>
-    </aside>
-    <main style="width: 70%">
-        <section id="status-form">
-        <form action="" method="post">
-            <div id="status-text-box">
-            <label for="status-post">Status: </label>
-            <input type="text" id="status-post"> 
-            </div>
-
-            <div id="status-username-submit">
-            <div> 
-                <label for="username">Username: </label>
-                <input type="text" id="username">
-            </div>
-            <button type="Submit">Post</button>
-            </div>
-        </form>
-        </section>
-        <section id="status-data">
-<div>
-    <P>Billybobjoe</P>
-    <br>
-    <P>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, exercitationem quidem dolorum doloremque natus amet nisi doloribus earum qui odio placeat sunt aliquam minus suscipit rem, rerum quia? Distinctio, et?
-    </P>
-</div>
-<div>
-    <p> Malcom L</p>
-    <br>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum voluptas expedita officiis perferendis quibusdam ea nulla magnam sed earum provident saepe, velit facere ullam necessitatibus aspernatur repellat enim, soluta animi!</p>
-</div>
-<div>
-    <p>
-        Smriti 
-    </p> 
-    <br>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque at dignissimos nemo ullam enim inventore facilis quam consequatur delectus, tempore dolorum quod nulla eum fugit accusantium qui unde cupiditate? Delectus.</p>
-</div>
-<div>
-    <p> Jane</p>
-    <br>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem earum odio culpa reprehenderit, dicta error ea, sequi suscipit quae fuga tempore ullam, ratione cumque quidem iusto laboriosam. Repudiandae, architecto ad.</p>
-</div>
-<div>
-    <p>Sam</p>
-    <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ex quisquam repudiandae amet perferendis ab aperiam, eligendi nesciunt asperiores aut deserunt possimus voluptas neque quibusdam dignissimos hic suscipit obcaecati ipsam!</p>
-</div>    
-</section>
-</main>
+<body> <!-- Contains all visible page content -->
+  <!-- aside, nav, header -->
+   <aside class="nav"> <!-- Sidebar content, typically for navigation or supplementary info -->
+    <!-- img, headings tags -->
+     <a href="index.html"> <!-- Link that navigates to index.html -->
+       <img src="evalogo.png" alt="EVA IT CS Logo" height="100"> <!-- Image with source, alt text for accessibility, and height attribute -->
+     </a>
+    <ul> <!-- Unordered list for navigation menu -->
+      <li><a href="index.html">Home</a></li> <!-- List item with link to home page -->
+      <li><a href="terms-and-agreement.html">Terms and Agreement</a></li> <!-- List item with link to terms page -->
+      <li><a href="contact.html">Contact us</a></li> <!-- List item with link to contact page -->
+    </ul>
+   </aside>
+   <main style="width: 70%;"> <!-- Main content area of the page -->
+    <section id="status-form"> <!-- Section with unique ID for status posting form -->
+      <form action="" method="post"> <!-- Form that submits data via POST method -->
+        <div id="status-text-box">
+          <label for="status-post">Status: </label> <!-- Label associated with status input field -->
+          <input type="text" id="status-post"> <!-- Text input field for status content -->
+        </div>
+        <div id="status-username-submit">
+          <div>
+            <label for="username">Username: </label> <!-- Label associated with username input field -->
+            <input type="text" id="username"> <!-- Text input field for username -->
+          </div>
+          <button type="submit">Post</button> <!-- Submit button to send form data -->
+        </div>
+      </form>
+    </section>
+    <section id="status-data"> <!-- Section with unique ID containing status posts -->
+      <div> <!-- Container div for first status post -->
+        <p>Billybobjoe</p> <!-- Paragraph containing username -->
+        <p> <!-- Paragraph containing status message -->
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta similique quaerat a error, dignissimos rerum reprehenderit suscipit veniam, aperiam nihil distinctio mollitia, voluptatum incidunt quae illo illum quibusdam quasi cupiditate?
+        </p>
+      </div>
+      <div> <!-- Container div for second status post -->
+        <p>Malcom L</p> <!-- Paragraph containing username -->
+        <p> <!-- Paragraph containing status message -->
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, hic quisquam quam necessitatibus ullam a voluptate facilis eum odit sit neque quis provident enim explicabo odio natus quaerat expedita perferendis.
+        </p>
+      </div>
+      <div></div> <!-- Empty div, likely placeholder for future content -->
+      <div></div> <!-- Empty div, likely placeholder for future content -->
+      <div></div> <!-- Empty div, likely placeholder for future content -->
+    </section>
+   </main>
 </body>
 </html>
