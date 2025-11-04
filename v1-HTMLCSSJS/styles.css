@@ -6,7 +6,7 @@ body{
     height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: linear-gradient(to bottom,#000529 1%, #002055 24%, #005db5 67%, #0074d9 100%);
-    padding: Irem;
+    padding: 1rem;
     text-align: center;
    
     ul{
@@ -19,10 +19,29 @@ body{
     text-decoration: none;
 }
 .nav li {
-    padding-bottom: Irem;
+    padding-bottom: 1rem;
+}
+
+#status-form{
+    padding: 0 2rem;
 }
 
 #status-form form{
     display: flex;
     flex-direction: column;
+}
+
+#status-text-box{
+    width: 50%;
+
+    input{
+        width: 100%;
+        height: 3rem;
+    }
+}
+#status-username-submit{
+    width: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
 }
