@@ -3,30 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Eva Social</title>
 </head>
 <body>
     <!-- aside, nav, header -->
-    <aside>
+    <aside class= "nav">
         <!--img, heading tags-->
-        <a href="Index.html"><img src="evalogo.png" alt="EVA IT CS Logo" height="100"></a>
+        <a href="Index.html">
+        <img src="evalogo.png" alt="EVA IT CS Logo" height="100">
+    </a>
         <ul>
-            <li> <a href="index.com">Home</a></li>
+            <li><a href="index.com">Home</a></li>
             <li><a href="terms-and-agreement.html">Terms and Agreement</a></li>
             <li><a href="contact.html">Contact us</a></li>
         </ul>
     </aside>
-    <main>
-        <section id="status-form"></section>
+    <main style="width: 70%">
+        <section id="status-form">
         <form action="" method="post">
+            <div id="status-text-box">
             <label for="status-post">Status: </label>
-            <input type="text" id="status-post">
-            <label for="username">Username: </label>
-            <input type="text" id="username">
-            <button type="Submit">Post</button>
+            <input type="text" id="status-post"> 
+            </div>
 
+            <div id="status-username-submit">
+            <div> 
+                <label for="username">Username: </label>
+                <input type="text" id="username">
+            </div>
+            <button type="Submit">Post</button>
+            </div>
         </form>
-        <section id="status-data"></section>
+        </section>
+        <section id="status-data">
 <div>
     <P>Billybobjoe</P>
     <br>
@@ -56,6 +66,7 @@
     <br>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat ex quisquam repudiandae amet perferendis ab aperiam, eligendi nesciunt asperiores aut deserunt possimus voluptas neque quibusdam dignissimos hic suscipit obcaecati ipsam!</p>
 </div>    
+</section>
 </main>
 </body>
 </html>
