@@ -46,9 +46,9 @@ body.home #status-username-submit {
   justify-content: space-evenly;
 }
 
-
-
-
+body.contact {
+  background-color:rgb(234, 246, 251);
+}
 body.contact h1 {
   background-image:linear-gradient( #000529 1%,#002055 24%,#005db5 67%,#0074d9 100%);
   color: white;
